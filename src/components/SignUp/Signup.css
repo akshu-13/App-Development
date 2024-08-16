@@ -1,0 +1,81 @@
+/* src/styles/Signup.css */
+/* Import the font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap');
+
+/* Area beyond signup component */
+.signup-container {
+  display: flex;
+  justify-content: flex-end; /* Align items to the right */
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://manipaldigital.info/wp-content/uploads/2020/04/blog-banner-Ten-Women-Photographers-Who-Continue-to-Inspire-us.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-right: 40px; /* Increase padding to adjust space from the right edge */
+}
+
+/* Signup box specifications */
+.signup-card {
+  background-color: #b5d5dd;
+  padding: 20px; /* Reduced padding */
+  border-radius: 20px; /* Reduced border radius */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 300px; /* Reduced max-width */
+  width: 100%;
+  margin-right: 20px; /* Add margin to the right to move it left */
+}
+
+/* Alter specifications of box and 'signup' */
+.signup-card h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  font-family: 'Roboto', sans-serif; /* Apply the custom font */
+}
+
+/* Alter signup box size */
+.input-group {
+  margin-bottom: 20px;
+}
+
+/* Ensure consistent size for password fields */
+.input-group input {
+  width: 100%; /* Ensure full width */
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 1px; /* Ensure consistent border radius */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Button font color and button */
+.signup-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #66A5AD;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Change color when hovering over signup button */
+.signup-button:hover {
+  background-color: #45a049;
+}
+
+/* Text style for the link to login page */
+.signup-card p {
+  text-align: center;
+  margin-top: 20px;
+  color: #333;
+}
+
+.signup-card p a {
+  color: #66A5AD;
+  text-decoration: none;
+}
+
+.signup-card p a:hover {
+  text-decoration: underline;
+}

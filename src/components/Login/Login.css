@@ -1,0 +1,81 @@
+.login-container {
+  display: flex;
+  justify-content: flex-end; /* Align the login box to the right */
+  align-items: center;
+  height: 100vh;
+  background-image: url('https://manipaldigital.info/wp-content/uploads/2020/04/blog-banner-Ten-Women-Photographers-Who-Continue-to-Inspire-us.jpg');
+  background-size: cover;
+  background-position: center;
+  padding-right: 20px; /* Adjust padding on the right */
+}
+
+/* Login box */
+.login-card {
+  background-color: #b5d5dd;
+  padding: 30px;
+  border-radius: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 30%;
+  /* Removed margin-left, since the box will be aligned to the right */
+}
+
+/* Alter specifications of box and 'login' */
+.login-card h2 {
+  margin-bottom: 20px;
+  text-align: center;
+  color: #333;
+  font-family: 'Roboto', sans-serif; /* Apply the custom font */
+}
+
+/* Alter login box size */
+.input-group {
+  margin-bottom: 40px;
+}
+
+/* Email, pass font style and color */
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+/* Email, pass text box color */
+.input-group input {
+  width: 95%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+
+/* Button font color and button */
+.login-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #66A5AD;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Change color when hovering over login button */
+.login-button:hover {
+  background-color: #45a049;
+}
+
+/* Style for signup link */
+.signup-link {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.signup-link a {
+  color: #66A5AD;
+  text-decoration: none;
+}
+
+.signup-link a:hover {
+  text-decoration: underline;
+}
